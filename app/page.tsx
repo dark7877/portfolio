@@ -241,7 +241,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-24"
       >
         <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
-          // about me
+           about me
         </p>
 
         <h2 className="text-4xl font-bold mb-14">
@@ -329,7 +329,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-24"
       >
         <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
-          // skills
+           skills
         </p>
 
         <h2 className="text-4xl font-bold mb-14">
@@ -361,7 +361,7 @@ export default function Home() {
       {/* CERTIFICATIONS */}
       <section className="max-w-6xl mx-auto px-6 py-24">
         <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
-          // certifications
+           certifications
         </p>
 
         <h2 className="text-4xl font-bold mb-14">
@@ -415,6 +415,30 @@ export default function Home() {
               In Progress
             </p>
           </div>
+           {/* Google */}
+          <div
+            className={`rounded-3xl border p-8 ${
+              darkMode
+                ? "bg-[#0f1e3c]/50 border-blue-400/10"
+                : "bg-white/60 border-blue-400/20"
+            }`}
+          >
+            <p className="text-cyan-400 font-mono text-sm mb-5">
+              Google
+            </p>
+
+            <h3 className="text-2xl font-semibold">
+              Crash Course on Python
+            </h3>
+
+          <a
+           href="https://www.coursera.org/account/accomplishments/records/VGZUWUZ1HY98"
+           target="_blank"
+           className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+          >
+  View Credential ↗
+</a>
+          </div>
         </div>
       </section>
 
@@ -424,7 +448,7 @@ export default function Home() {
         className="max-w-6xl mx-auto px-6 py-24"
       >
         <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
-          // contact
+           contact
         </p>
 
         <h2 className="text-4xl font-bold mb-14">
