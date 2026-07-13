@@ -220,7 +220,7 @@ export default function Home() {
 
             <div>
               <h3 className="text-3xl font-bold text-blue-400 font-mono">
-                2
+                6
               </h3>
 
               <p
@@ -361,92 +361,175 @@ export default function Home() {
       </section>
 
       {/* CERTIFICATIONS */}
-      <section className="max-w-6xl mx-auto px-6 py-24">
-        <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
-           certifications
-        </p>
+<section className="max-w-6xl mx-auto px-6 py-24">
+  <p className="font-mono text-cyan-400 uppercase tracking-[4px] text-sm mb-3">
+    certifications
+  </p>
 
-        <h2 className="text-4xl font-bold mb-14">
-          Certifications
-        </h2>
+  <h2 className="text-4xl font-bold mb-14">
+    Certifications
+  </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {/* Cisco */}
-          <div
-            className={`rounded-3xl border p-8 ${
-              darkMode
-                ? "bg-[#0f1e3c]/50 border-blue-400/10"
-                : "bg-white/60 border-blue-400/20"
-            }`}
-          >
-            <p className="text-cyan-400 font-mono text-sm mb-5">
-              Cisco
-            </p>
+  <div className="grid md:grid-cols-2 gap-6">
 
-            <h3 className="text-2xl font-semibold mb-6">
-              Introduction to Cybersecurity
-            </h3>
+    {/* Google Cybersecurity */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        Google
+      </p>
 
-            <a
-              href="https://www.credly.com/badges/fd2f674b-5cb3-475e-be17-1cf08c38dba9/linked_in_profile"
-              target="_blank"
-              className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition"
-            >
-              View Credential ↗
-            </a>
-          </div>
+      <h3 className="text-2xl font-semibold">
+        Google Cybersecurity Professional Certificate
+      </h3>
 
-          {/* Google */}
-          <div
-            className={`rounded-3xl border p-8 ${
-              darkMode
-                ? "bg-[#0f1e3c]/50 border-blue-400/10"
-                : "bg-white/60 border-blue-400/20"
-            }`}
-          >
-            <p className="text-cyan-400 font-mono text-sm mb-5">
-              Google
-            </p>
+      <a
+        href="https://www.coursera.org/account/accomplishments/specialization/certificate/52K35CEYB9ML"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
 
-            <h3 className="text-2xl font-semibold">
-              Google Cybersecurity Professional
-              Certificate
-            </h3>
+    {/* Datacom */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        Forage
+      </p>
 
-            <a
-              href="https://www.coursera.org/account/accomplishments/specialization/certificate/52K35CEYB9ML"
-              target="_blank"
-              className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
-            >
-              View Credential ↗
-            </a>
-          </div>
-           {/* Google */}
-          <div
-            className={`rounded-3xl border p-8 ${
-              darkMode
-                ? "bg-[#0f1e3c]/50 border-blue-400/10"
-                : "bg-white/60 border-blue-400/20"
-            }`}
-          >
-            <p className="text-cyan-400 font-mono text-sm mb-5">
-              Google
-            </p>
+      <h3 className="text-2xl font-semibold">
+        Datacom – Cyber Security Operations Job Simulation
+      </h3>
 
-            <h3 className="text-2xl font-semibold">
-              Crash Course on Python
-            </h3>
+      <a
+        href="https://www.theforage.com/completion-certificates/gCW7Xki5Y3vNpBmnn/yTszJTvkHFBH6zAn3_gCW7Xki5Y3vNpBmnn_6a1d336489768ba49eb81484_1780301145245_completion_certificate.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
 
-          <a
-           href="https://www.coursera.org/account/accomplishments/records/VGZUWUZ1HY98"
-           target="_blank"
-           className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
-          >
-  View Credential ↗
-</a>
-          </div>
-        </div>
-      </section>
+    {/* Cisco */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        Cisco
+      </p>
+
+      <h3 className="text-2xl font-semibold">
+        Introduction to Cybersecurity
+      </h3>
+
+      <a
+        href="https://www.credly.com/badges/fd2f674b-5cb3-475e-be17-1cf08c38dba9/linked_in_profile"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
+
+    {/* LetsDefend */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        LetsDefend
+      </p>
+
+      <h3 className="text-2xl font-semibold">
+        Network Fundamentals
+      </h3>
+
+      <a
+        href="https://app.letsdefend.io/my-rewards/detail/4fd01a1d9b9d40c88d9ed213f94cc4d7"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
+
+    {/* Python */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        Google
+      </p>
+
+      <h3 className="text-2xl font-semibold">
+        Crash Course on Python
+      </h3>
+
+      <a
+        href="https://www.coursera.org/account/accomplishments/records/VGZUWUZ1HY98"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
+
+    {/* HackerRank */}
+    <div
+      className={`rounded-3xl border p-8 ${
+        darkMode
+          ? "bg-[#0f1e3c]/50 border-blue-400/10"
+          : "bg-white/60 border-blue-400/20"
+      }`}
+    >
+      <p className="text-cyan-400 font-mono text-sm mb-5">
+        HackerRank
+      </p>
+
+      <h3 className="text-2xl font-semibold">
+        SQL (Basic)
+      </h3>
+
+      <a
+        href="https://www.hackerrank.com/certificates/a73bc39880d0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+      >
+        View Credential ↗
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* CONTACT */}
       <section
