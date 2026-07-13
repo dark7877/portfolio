@@ -10,8 +10,10 @@ export default function Home() {
     "Python",
     "C",
     "C++",
+    "SQL",
     "Networking",
-    "Cybersecurity Fundamentals",
+    "Cybersecurity",
+    "SIEM",
   ];
 
   return (
@@ -228,7 +230,7 @@ export default function Home() {
                     : "text-black/50"
                 }`}
               >
-                Certificates
+                Certifications
               </p>
             </div>
           </div>
@@ -411,9 +413,13 @@ export default function Home() {
               Certificate
             </h3>
 
-            <p className="mt-6 text-blue-400">
-              In Progress
-            </p>
+            <a
+              href="https://www.coursera.org/account/accomplishments/specialization/certificate/52K35CEYB9ML"
+              target="_blank"
+              className="inline-flex px-5 py-3 rounded-xl border border-blue-400/20 text-blue-400 hover:bg-blue-400/10 transition mt-4"
+            >
+              View Credential ↗
+            </a>
           </div>
            {/* Google */}
           <div
